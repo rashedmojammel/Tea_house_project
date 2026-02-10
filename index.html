@@ -18,7 +18,8 @@
 </head>
 <body>
 
-    <section class="grid grid-cols-2 container border border-red-500 mx-auto">
+    <!-- Banner 1 -->
+    <section class="grid grid-cols-1 md:grid-cols-2 container  mx-auto">
         <div class="banner-left space-y-[30px]">
             <h2 class="text-[80px] font-bold">It's good<br>
 tea time at The<br>Tea House</h2>
@@ -26,11 +27,48 @@ tea time at The<br>Tea House</h2>
             <button class="py-2 px-4 rounded-md   h-14 bg-linear-to-r from-[#FF8938] to-[#FF0000] font-semibold text-white">Explore More<span class="-rotate-45 inline-block"> <i class="fa-solid fa-right-long"></i>  </span> </button>
 
         </div>
-        <div class="banner-right">
+        <div class="banner-right flex justify-end items-end relative">
             <img src="./images/banner.png" >
+            <div class="bg-white rounded-xl  shadow-2xl flex justify-center items-center width-[250px] absolute  gap-3 py-[25px]  px-[25px] bottom-[15px] left-[220px]">
+                <img src="./images/Group 5.png">
+                <div>
+                    <h1 class="font-bold text-3xl">5.00</h1>
+                    <p>Trust Pilot Rating</p>
+                </div>
+            </div>
 
         </div>
     </section>
+    <!-- Banner 2 -->
+     <section class="container mx-auto my-[90px]">
+        <div class="text-center max-w-[65%] mx-auto">
+            <h1 class="font-bold text-[45px] ">Our Featured Products</h1>
+            <P class="text-[#777777] pt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </P>
+
+        </div>
+        <div class="featured-card-parent grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-10"  >
+            <div class="featured-card rounded-[20px] bg-linear-to-b from-[#ece8e8] to-[white] text-center">
+                <img src="./images/tea-2.png" class="mx-auto mb-4 mt-4">
+                <h1 class="font-semibold text-3xl pb-5">Milk Tea</h1>
+                <p>Creamer could be replaced by<br> fresh milk</p>
+            </div>
+            <div class="featured-card rounded-[20px] bg-linear-to-b from-[#ece8e8] to-[white] text-center">
+                <img src="./images/tea-3.png " class="mx-auto mb-4 mt-4">
+                <h1 class="font-semibold text-3xl pb-5">Black Tea</h1>
+                <p>Creamer could be replaced by<br> fresh milk</p>
+            </div>
+            <div class="featured-card rounded-[20px] bg-linear-to-b from-[#ece8e8] to-[white] text-center">
+                <img src="./images/tea-4.png" class="mx-auto mb-4 mt-4">
+                <h1 class="font-semibold text-3xl pb-5">Cold Tea</h1>
+                <p>Creamer could be replaced by<br> fresh milk</p>
+            </div>
+            <div class="featured-card rounded-[20px] bg-linear-to-b from-[#ece8e8] to-[white] text-center">
+                <img src="./images/tea-1.png" class="mx-auto mb-4 mt-4">
+                <h1 class="font-semibold text-3xl pb-5">Green Tea</h1>
+                <p>Creamer could be replaced by<br>fresh milk</p>
+            </div>
+        </div>
+     </section>
     
 </body>
 </html>
